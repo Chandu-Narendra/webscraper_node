@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-web-scraper",
+  "version": "0.0.1",
+  "description": "web scraping in NodeJS",
+  "main": "server.js",
+  "author": "Chandrashekar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chandu-Narendra/webscraper_node"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
